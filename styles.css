@@ -1,0 +1,22 @@
+
+:root {
+  --color-primario: rgb(0, 0, 0);
+  --color-secundario: rgb(250, 250, 250);
+  --color-boton: rgb(250, 250, 250);
+  --fuente-principal: system-ui;
+  --tamano-titulos: font-size 24px;
+  --tamano-subtitulos1: 
+  --tamano-subtitulos2: 
+  --tamano-subtitulos3: 
+
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
