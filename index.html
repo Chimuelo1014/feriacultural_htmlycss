@@ -6,14 +6,14 @@
     <title>Principal feria</title>
   </head>
   <body>
-    <header class="navbar">
-      <div class="navbar__container">
-        <h1 class="navbar__logo">Feria Cultural</h1>
-        <nav class="container__navegador">
-            <a href="index.html">Inicio</a>
-            <a href="schedule.html">Horarios</a>
-            <a href="food.html">Gastronomía</a>
-            <a href="crafts.html">Artesanías</a>
+    <header>
+      <div class="navbar">
+        <p class="navbar__logo">Feria Cultural Dia De Los Muertos</p>
+        <nav class="navbar__navegador">
+            <a class="navegador__link" href="index.html">Inicio</a>
+            <a class="navegador__link" href="schedule.html">Horarios</a>
+            <a class="navegador__link" href="food.html">Gastronomía</a>
+            <a class="navegador__link" href="crafts.html">Artesanías</a>
           </ul>
         </nav>
       </div>
@@ -22,7 +22,7 @@
 
 
     <main>
-      <section class="intro">
+      <section class="secciones">
         <h2 class="subtitulo">¡Bienvenidos a la primera Feria Cultural del Barrio [el que sea]</h2>
         <p>
           Ven y disfruta de la historia, la música, la comida típica y el talento de nuestros artesanos locales.
@@ -30,32 +30,32 @@
         </p>
       </section>
 
-      <section class="highlight">
-        <img src="img/feria.jpg" alt="Imagen de la feria" class="featured-image" />
+      <section class="secciones">
+        <img class="imagencita" src="https://storage.googleapis.com/gx-global-cms/events/657e947f-4228-42a2-a05e-7855e5473c54.png" alt="Imagen de la feria" class="featured-image" />
         <p>Explora los sabores, sonidos y colores de [el barrio] del 10 al 12 de agosto.</p>
       </section>
 
       <section class="secciones">
         <div class="secciones__container">
 
-          <h2 id="menu">Menú</h2>
+          <h2 id="menu">Nuestras Secciones</h2>
           <div class="container__productos">
             <div class="productos__carta">
-              <h3>Hamburguesa</h3>
+              <h3>🗓️Horarios</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, ad ratione ut cum eveniet consectetur a, qui animi repellendus atque nam ex laboriosam rerum quas assumenda nemo maiores facere consequatur!</p>
-              <button>$20.000</button>
+              <a href="schedule.html"><button>Horarios</button></a>
             </div>
 
             <div class="productos__carta">
-              <h3>Pizza</h3>
+              <h3>🍲Gastronomia</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, ad ratione ut cum eveniet consectetur a, qui animi repellendus atque nam ex laboriosam rerum quas assumenda nemo maiores facere consequatur!</p>
-              <button>$40.000</button>
+              <a href="food.html"><button>Gastronomia</button></a>
             </div>
 
             <div class="productos__carta">
-              <h3>Perro</h3>
+              <h3>🧵Artesania</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, ad ratione ut cum eveniet consectetur a, qui animi repellendus atque nam ex laboriosam rerum quas assumenda nemo maiores facere consequatur!</p>
-              <button>$15.000</button>
+              <a href="crafts.html"><button>Artesania</button></a>
               
             </div>
           </div>
@@ -65,7 +65,9 @@
     </main>
 
     <footer>
-      <p>&copy; 2025 Feria Cultural del dia de los muertos</p>
+      <div class="foot">
+        <p>&copy; 2025 Feria Cultural del dia de los muertos</p>
+      </div>
     </footer>
   </body>
 </html>
