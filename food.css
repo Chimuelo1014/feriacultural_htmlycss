@@ -9,6 +9,8 @@ body{
 }
 
 header {
+    background-color: #651a7a;
+    position: fixed;
     margin: 0;
     top: 0;
     left: 0;
@@ -57,7 +59,7 @@ main{
     padding-top: 120px;
 }
 
-.conteiner-card {
+.container-card {
     overflow: auto;
     display: flex;
     flex-wrap: wrap;
