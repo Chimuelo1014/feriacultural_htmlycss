@@ -9,20 +9,21 @@
     <header class="navbar">
       <div class="navbar__container">
         <h1 class="navbar__logo">Feria Cultural</h1>
-        <nav>
-          <ul class="nav__links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="schedule.html">Horarios</a></li>
-            <li><a href="food.html">Gastronomía</a></li>
-            <li><a href="crafts.html">Artesanías</a></li>
+        <nav class="container__navegador">
+            <a href="index.html">Inicio</a>
+            <a href="schedule.html">Horarios</a>
+            <a href="food.html">Gastronomía</a>
+            <a href="crafts.html">Artesanías</a>
           </ul>
         </nav>
       </div>
     </header>
 
+
+
     <main>
       <section class="intro">
-        <h2>¡Bienvenidos a la primera Feria Cultural del Barrio [el que sea]</h2>
+        <h2 class="subtitulo">¡Bienvenidos a la primera Feria Cultural del Barrio [el que sea]</h2>
         <p>
           Ven y disfruta de la historia, la música, la comida típica y el talento de nuestros artesanos locales.
           Esta feria es un homenaje a la identidad y cultura de nuestro barrio.
@@ -34,18 +35,37 @@
         <p>Explora los sabores, sonidos y colores de [el barrio] del 10 al 12 de agosto.</p>
       </section>
 
-      <section class="links">
-        <h3>Explora nuestras secciones:</h3>
-        <div class="cards">
-          <a href="schedule.html" class="card">🗓️ Horarios</a>
-          <a href="food.html" class="card">🍲 Gastronomía</a>
-          <a href="crafts.html" class="card">🧵 Artesanías</a>
+      <section class="secciones">
+        <div class="secciones__container">
+
+          <h2 id="menu">Menú</h2>
+          <div class="container__productos">
+            <div class="productos__carta">
+              <h3>Hamburguesa</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, ad ratione ut cum eveniet consectetur a, qui animi repellendus atque nam ex laboriosam rerum quas assumenda nemo maiores facere consequatur!</p>
+              <button>$20.000</button>
+            </div>
+
+            <div class="productos__carta">
+              <h3>Pizza</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, ad ratione ut cum eveniet consectetur a, qui animi repellendus atque nam ex laboriosam rerum quas assumenda nemo maiores facere consequatur!</p>
+              <button>$40.000</button>
+            </div>
+
+            <div class="productos__carta">
+              <h3>Perro</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, ad ratione ut cum eveniet consectetur a, qui animi repellendus atque nam ex laboriosam rerum quas assumenda nemo maiores facere consequatur!</p>
+              <button>$15.000</button>
+              
+            </div>
+          </div>
         </div>
+
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2025 Feria Cultural del Barrio San Antonio</p>
+      <p>&copy; 2025 Feria Cultural del dia de los muertos</p>
     </footer>
   </body>
 </html>
