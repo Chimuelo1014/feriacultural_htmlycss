@@ -52,6 +52,11 @@ p{
   margin-bottom: 1em;
   color: var(--color-secundario);
 }
+.subtitulo{
+  color: #000000;
+  font-weight:900;
+  
+}
 
 
 
@@ -182,10 +187,12 @@ margin: 0px 10px;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
 }
 .secciones__container{
+  align-items: ;
   background-color:#af12c48e;
   padding: 10px 0px;
   margin: 0px;
   border-radius: 10px;
+  
 }
 .foot{
   background-color: black;
@@ -193,6 +200,72 @@ margin: 0px 10px;
   padding: 0px 3px;
 }
 
+
+
+@media (min-width: 720px){
+  
+  header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    
+    
+  }
+  .navbar{
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: #442a47;
+    
+  }
+  .navbar__logo, .navbar__navegador
+  {
+    flex-direction: row;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    font-size: 20px;
+    
+  }
+  
+  .secciones:first-child{
+    margin-top: 100px;
+  }
+
+  
+  .container__productos{
+    display: flex;
+  }
+
+ 
+  .productos__carta{
+    margin: 10px 15px;
+
+
+  }
+  .container__image{
+    background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+
+    ), url("https://elheraldoslp.com.mx/new/wp-content/uploads/2021/10/Feria-de-los-Muertos-2021-de-Zacatlan.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 400px;
+    margin: 50px 10px;
+    border-radius: 20px;
+    
+  }
+  .container__text{
+    width: 50%;
+    text-align: initial;
+    margin: 50px;
+  }
+
+}
 
 
 
